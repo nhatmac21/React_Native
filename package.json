@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "expo-notifications": "^0.31.4",
     "react-native-svg": "^15.12.1"
   }
 }
