@@ -58,6 +58,20 @@ export default function TabLayout() {
            tabBarIcon: ({ color }) => <FontAwesome name="medkit" size={22} color={color} />,
          }}
        />
+        <Tabs.Screen
+         name="reminders"
+         options={{
+           title: 'Reminders',
+           tabBarIcon: ({ color }) => <FontAwesome name="medkit" size={22} color={color} />,
+         }}
+       />
+        <Tabs.Screen
+         name="history"
+         options={{
+           title: 'History',
+           tabBarIcon: ({ color }) => <FontAwesome name="medkit" size={22} color={color} />,
+         }}
+       />
     </Tabs>
   );
 }
